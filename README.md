@@ -31,8 +31,8 @@ Feel free to install directly Tensorflow on your laptop [TensorFlow Installation
 - RNN ([exo](https://github.com/fabienbaradel/Tensorflow-tutorials/blob/master/MNIST/rnn_exo.py)) - ([solution](https://github.com/fabienbaradel/Tensorflow-tutorials/blob/master/MNIST/rnn_exo.py))
 
 ## The Nature Conservancy Fisheries Monitoring ([Kaggle](https://www.kaggle.com/c/the-nature-conservancy-fisheries-monitoring))
-- Inception v3 Features Extraction ([code](https://github.com/fabienbaradel/Tensorflow-tutorials/blob/master/kaggle/extract_deepFeatures_fish.py))
-- Classification from DeepFeatures ([exo](https://github.com/fabienbaradel/Tensorflow-tutorials/blob/master/kaggle/classif_fish_exo.py)) - ([softmax regression](https://github.com/fabienbaradel/Tensorflow-tutorials/blob/master/kaggle/classif_fish.py))
+- Inception v3 Features Extraction ([code](https://github.com/fabienbaradel/Tensorflow-tutorials/blob/master/Kaggle/extract_deepFeatures_fish.py))
+- Classification from DeepFeatures ([exo](https://github.com/fabienbaradel/Tensorflow-tutorials/blob/master/Kaggle/classif_fish_exo.py)) - ([softmax regression](https://github.com/fabienbaradel/Tensorflow-tutorials/blob/master/kaggle/classif_fish.py))
 
 
 ## Dependencies
