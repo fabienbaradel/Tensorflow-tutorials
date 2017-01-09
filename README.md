@@ -24,8 +24,8 @@ Feel free to install directly Tensorflow on your laptop [TensorFlow Installation
 - LeNet ([exo](https://github.com/fabienbaradel/Tensorflow-tutorials/blob/master/MNIST/lenet_exo.py)) - ([solution](https://github.com/fabienbaradel/Tensorflow-tutorials/blob/master/MNIST/lenet.py))
 - Autoencoder ([exo](https://github.com/fabienbaradel/Tensorflow-tutorials/blob/master/MNIST/autoencoder_exo.py)) - ([solution](https://github.com/fabienbaradel/Tensorflow-tutorials/blob/master/MNIST/autoencoder.py))
 - Conv-Deconv Autoencoder ([exo](https://github.com/fabienbaradel/Tensorflow-tutorials/blob/master/MNIST/conv_ae_exo.py)) - ([solution](https://github.com/fabienbaradel/Tensorflow-tutorials/blob/master/MNIST/conv_ae.py))
-- GAN  ...
-- DCGAN ...
+- GAN  (coming)
+- DCGAN (coming)
 - RNN ([exo](https://github.com/fabienbaradel/Tensorflow-tutorials/blob/master/MNIST/rnn_exo.py)) - ([solution](https://github.com/fabienbaradel/Tensorflow-tutorials/blob/master/MNIST/rnn_exo.py))
 
 ## The Nature Conservancy Fisheries Monitoring ([Kaggle](https://www.kaggle.com/c/the-nature-conservancy-fisheries-monitoring))
