@@ -2,7 +2,7 @@
 
 Tutorials with Tensorflow implementations. Specially designed for [ENSAI SID 2017](http://www.ensai.fr/formation/id-3e-annee-ingenieur/filiere-statistique-et-ingenierie-des-donnees.html).
 
-A [.ova](https://drive.google.com/file/d/0B3K4bVd6ydRwdFlUU3NEYm93bm8/view?usp=sharing) file (Ubuntu 16.04 - ~ 4 Go) is available on a USB key where Anaconda and Tensorflow (0.12.0) are already installed.
+A .ova file (Ubuntu 16.04 - ~ 3.5 Go) is available on a USB key where Anaconda and Tensorflow (0.12.0) are already installed.
 Go to VirtualBox and 'import a virtual environment' and select the .ova file.
 
 Slides: [Intro to deep learning with Tensorflow](https://github.com/fabienbaradel/Tensorflow-tutorials/blob/master/introduction_to_deep_learning_with_tensorflow.pdf)
