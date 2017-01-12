@@ -12,7 +12,7 @@ mnist = input_data.read_data_sets("/home/sid/MNIST", one_hot=True)
 
 
 
-class MNIST_logistic(object):
+class MNIST_mlp(object):
     """
     Class to construct a simple logistic regression on MNIST (i.e a neural net w/o hidden layer)
     """
@@ -155,8 +155,8 @@ def main(_):
     """
 
     # Instanciate a MNIST class
-    model = MNIST_logistic(learning_rate=0.001,
-                           batch_size=100)
+    model = MNIST_mlp(learning_rate=0.001,
+                      batch_size=100)
     # Setup the graph
     model.inference()
 

@@ -76,8 +76,7 @@ with tf.Session() as sess:
             all_next_Q = sess.run(Q_values, feed_dict={input_state: ??????})
 
             # Obtain max(all_next_Q) and set our Q_target_values for chosen action.
-            # Here is a little trick for the backpropagation
-            # GIVE MORE EXPLANATION.................
+            # Here is a little trick for the backpropagation: do not touch this part for the Q value target
             max_all_next_Q = np.max(all_next_Q)
             all_Q_target = all_Q.copy()
             all_Q_target[0, a[0]] = r + gamma * max_all_next_Q # Q_target definition

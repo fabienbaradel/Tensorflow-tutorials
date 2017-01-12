@@ -7,7 +7,7 @@ import tensorflow.contrib.slim as slim
 
 # Take an evironnmenet and have a look at it
 env = gym.make('FrozenLake-v0')
-env.render()
+#env.render()
 
 # See the action space:
 print(env.action_space) # 0=Left, 1=Down, 2=Right, 3=Up

@@ -26,14 +26,15 @@ Feel free to install directly Tensorflow on your laptop [TensorFlow Installation
 - LeNet ([exo](https://github.com/fabienbaradel/Tensorflow-tutorials/blob/master/MNIST/lenet_exo.py)) - ([solution](https://github.com/fabienbaradel/Tensorflow-tutorials/blob/master/MNIST/lenet.py))
 - Autoencoder ([exo](https://github.com/fabienbaradel/Tensorflow-tutorials/blob/master/MNIST/autoencoder_exo.py)) - ([solution](https://github.com/fabienbaradel/Tensorflow-tutorials/blob/master/MNIST/autoencoder.py))
 - Conv-Deconv Autoencoder ([exo](https://github.com/fabienbaradel/Tensorflow-tutorials/blob/master/MNIST/conv_ae_exo.py)) - ([solution](https://github.com/fabienbaradel/Tensorflow-tutorials/blob/master/MNIST/conv_ae.py))
-- GAN  (coming)
-- DCGAN (coming)
 - RNN ([exo](https://github.com/fabienbaradel/Tensorflow-tutorials/blob/master/MNIST/rnn_exo.py)) - ([solution](https://github.com/fabienbaradel/Tensorflow-tutorials/blob/master/MNIST/rnn_exo.py))
 
 ## The Nature Conservancy Fisheries Monitoring ([Kaggle](https://www.kaggle.com/c/the-nature-conservancy-fisheries-monitoring))
 - Inception v3 Features Extraction ([code](https://github.com/fabienbaradel/Tensorflow-tutorials/blob/master/Kaggle/extract_deepFeatures_fish.py))
 - Classification from DeepFeatures ([exo](https://github.com/fabienbaradel/Tensorflow-tutorials/blob/master/Kaggle/classif_fish_exo.py)) - ([softmax regression](https://github.com/fabienbaradel/Tensorflow-tutorials/blob/master/kaggle/classif_fish.py))
 
+
+## Frozen Lake
+- Q-Learning with neural network ([exo](https://github.com/fabienbaradel/Tensorflow-tutorials/blob/master/RL/q_learning_neural_net_exo.py))
 
 ## Dependencies
 ```

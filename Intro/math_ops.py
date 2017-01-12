@@ -64,7 +64,7 @@ B = tf.placeholder(tf.int32, shape=[2,3])
 B.get_shape()
 
 # Compute = A'.B
-mult = ?????
+mult = ????? # see tf.matmul
 
 # Launch the default graph.
 with tf.Session() as sess:
@@ -100,8 +100,8 @@ B = tf.placeholder(tf.int32, shape=[2,3])
 B.get_shape()
 
 # Pairwise multiplication and sum over the matrix
-mult_element_by_element = ?????
-sum = ?????
+mult_element_by_element = ????? # see tf.mul
+sum = ????? # see tf.reduce_sum
 
 # Launch the default graph.
 with tf.Session() as sess:

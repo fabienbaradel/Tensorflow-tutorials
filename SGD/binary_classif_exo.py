@@ -51,18 +51,18 @@ with tf.Session() as sess:
     for step in range(training_steps):
         # Uniform batch sampling in the training set
         location = np.random.choice(range(n_samples), BATCH_SIZE)
-        mini_batch_X, mini_batch_Y = coord_XY[location], color[location]
-        sess.run(train_op, feed_dict={X: mini_batch_X, Y: mini_batch_Y})
+        mini_batch_X, mini_batch_Y = ???, ??? # take a sample over your training set (coord_XY and color)
+        sess.run(train_op, feed_dict={X: ???, Y: ???})
 
         # Display logs per step
         if (step+1) % display_step == 0 or step < 10:
-            (loss_value, W_value, b_value) = sess.run([loss, W, b], feed_dict={X: coord_XY, Y:color})
+            (loss_value, W_value, b_value) = sess.run([???, ???, ???], feed_dict={X: coord_XY, Y:color})
             print("Step: %04d , Loss = %.4f , W-1 = (%.2f, %.2f), b-1 = %.2f"
                   %(step+1, loss_value, W_value[0], W_value[0], b_value))
 
     print("Optimization Finished!")
     print("")
-    (loss_value_training, W_value, b_value) = sess.run([loss, W, b], feed_dict={X: coord_XY, Y: color})
+    (loss_value_training, W_value, b_value) = sess.run([???, ???, ???], feed_dict={X: coord_XY, Y: color})
 
 
     # Graphic display and fitted line

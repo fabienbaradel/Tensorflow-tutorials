@@ -48,18 +48,17 @@ with tf.Session() as sess:
     for step in range(training_steps):
         # Uniform batch sampling in the training set
         location = np.random.choice(range(n_samples), BATCH_SIZE)
-        mini_batch_X, mini_batch_Y = train_X[location], train_Y[location]
-        sess.run(train_op, feed_dict={X: mini_batch_X, Y: mini_batch_Y})
+        mini_batch_X, mini_batch_Y = ????, ??? # take a sample of your data given the index 'location'
+        sess.run(????, feed_dict={X: ????, Y: ????}) # run the training operation
 
         # Display logs per step
         if (step+1) % display_step == 0 or step == 0:
-            (loss_value, W_value, b_value) = sess.run([loss, W, b], feed_dict={X: train_X, Y:train_Y})
+            (loss_value, W_value, b_value) = sess.run([???, ???, ???], feed_dict={X: train_X, Y:train_Y}) # get the loss, W and b values
             print("Step: %04d , Loss = %.4f , W = %.3f , b = %.3f"
                   %(step+1, loss_value, W_value, b_value))
-            #plt.plot(train_X, W_value * train_X + b_value)
 
     print("Optimization Finished!")
-    (loss_value_training, W_value, b_value) = sess.run([loss, W, b], feed_dict={X: train_X, Y: train_Y})
+    (loss_value_training, W_value, b_value) = sess.run([???, ???, ???], feed_dict={X: train_X, Y: train_Y}) # get the loss, W and b values
 
 
     # Graphic display
