@@ -5,7 +5,7 @@ Tutorials with Tensorflow implementations. Specially designed for [ENSAI SID 201
 A .ova file (Ubuntu 16.04 - ~ 3.5 Go) is available on a USB key where Python 2.7 and Tensorflow (0.12.0) are already installed.
 Go to VirtualBox and 'import a virtual environment' and select the .ova file.
 
-Slides: [Intro to deep learning with Tensorflow](https://github.com/fabienbaradel/Tensorflow-tutorials/blob/master/introduction_to_deep_learning_with_tensorflow.pdf)
+Slides: ["Intro to deep learning with Tensorflow"](https://fabienbaradel.github.io/images/tensorflow_ensai_SID_13_01_17.pdf)
 
 Feel free to install directly Tensorflow on your laptop [TensorFlow Installation Guide](https://github.com/tensorflow/tensorflow/blob/master/tensorflow/g3doc/get_started/os_setup.md)
 
