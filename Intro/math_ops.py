@@ -102,7 +102,7 @@ B.get_shape()
 
 # Pairwise multiplication and sum over the matrix
 mult_element_by_element = tf.mul(A,B) #????? # see tf.mul
-sum = tf.reduce_sum(mult_element_by_element#????? # see tf.reduce_sum
+sum = tf.reduce_sum(mult_element_by_element) #????? # see tf.reduce_sum
 
 # Launch the default graph.
 with tf.Session() as sess:

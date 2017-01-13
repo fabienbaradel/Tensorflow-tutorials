@@ -52,7 +52,7 @@ my_placeholder = tf.placeholder(dtype=tf.string)
 hello = tf.constant('Welcome to TensorFlow ')
 
 # Create your own operation (only one line...)
-welcome = ???????????
+welcome = tf.add(my_placeholder, hello)
 
 # Intro tf session
 with tf.Session() as sess:

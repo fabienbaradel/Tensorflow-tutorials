@@ -2,7 +2,7 @@
 
 Tutorials with Tensorflow implementations. Specially designed for [ENSAI SID 2017](http://www.ensai.fr/formation/id-3e-annee-ingenieur/filiere-statistique-et-ingenierie-des-donnees.html).
 
-A .ova file (Ubuntu 16.04 - ~ 3.5 Go) is available on a USB key where Anaconda and Tensorflow (0.12.0) are already installed.
+A .ova file (Ubuntu 16.04 - ~ 3.5 Go) is available on a USB key where Python 2.7 and Tensorflow (0.12.0) are already installed.
 Go to VirtualBox and 'import a virtual environment' and select the .ova file.
 
 Slides: [Intro to deep learning with Tensorflow](https://github.com/fabienbaradel/Tensorflow-tutorials/blob/master/introduction_to_deep_learning_with_tensorflow.pdf)
@@ -34,7 +34,15 @@ Feel free to install directly Tensorflow on your laptop [TensorFlow Installation
 
 
 ## Frozen Lake
-- Q-Learning with neural network ([exo](https://github.com/fabienbaradel/Tensorflow-tutorials/blob/master/RL/q_learning_neural_net_exo.py))
+- Q-Learning with neural network ([exo](https://github.com/fabienbaradel/Tensorflow-tutorials/blob/master/RL/q_learning_neural_net_exo.py)) - ([solution](https://github.com/fabienbaradel/Tensorflow-tutorials/blob/master/RL/q_learning_neural_net.py))
+
+
+
+## Thanks
+Code inspired by other great tutorials from [@aymericdamien](https://github.com/aymericdamien/TensorFlow-Examples), [@awjuliani](https://github.com/awjuliani/DeepRL-Agents), [@pkmital](https://github.com/pkmital/tensorflow_tutorials/blob/master/python/09_convolutional_autoencoder.py).  
+Do not hesitate to read more about deep learning on those awesome blogs: [colah.github.io](http://colah.github.io/), [karpathy.github.io](http://karpathy.github.io/), [www.wildml.com](http://www.wildml.com/)
+
+
 
 ## Dependencies
 ```
