@@ -1,6 +1,6 @@
 # README
 
-Few files for a first submission to [The Natue Conservancy Fisheries Monitoring](https://www.kaggle.com/c/the-nature-conservancy-fisheries-monitoring)
+How to make a first (honorable) submission to [The Natue Conservancy Fisheries Monitoring](https://www.kaggle.com/c/the-nature-conservancy-fisheries-monitoring) challenge.
 
 We use a deep learning pretrained models (already trained on Imagenet) and extract deep Features from it.
 Each images is now summarize by a vector of size 2048. This part is done by [here](https://github.com/fabienbaradel/Tensorflow-tutorials/blob/master/Kaggle/classif_fish.py).
