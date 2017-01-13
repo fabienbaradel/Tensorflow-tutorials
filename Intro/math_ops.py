@@ -10,6 +10,7 @@ Same as with string, we now discover basic operations in Tensorflow for interger
 
 a = tf.constant(2)
 b = tf.constant(3)
+a
 
 # Define some operations
 add = tf.add(a, b)
@@ -20,7 +21,7 @@ mul = tf.mul(a, b)
 with tf.Session() as sess:
     # Print the TF constants
     print("The constant a: " + str(a) ) # a is not equal to 2 but the constant a is assign to 2 during the session
-    print("The constant a: " + str(b))
+    print("The constant b: " + str(b))
 
     # Get the values of each constants
     (a_value, b_value) = sess.run([a, b]) # a_value and b_value are not anymore Tensorflow operation
@@ -64,7 +65,7 @@ B = tf.placeholder(tf.int32, shape=[2,3])
 B.get_shape()
 
 # Compute = A'.B
-mult = ????? # see tf.matmul
+mult = tf.matmul(A,B, transpose_a=True)
 
 # Launch the default graph.
 with tf.Session() as sess:
@@ -100,8 +101,8 @@ B = tf.placeholder(tf.int32, shape=[2,3])
 B.get_shape()
 
 # Pairwise multiplication and sum over the matrix
-mult_element_by_element = ????? # see tf.mul
-sum = ????? # see tf.reduce_sum
+mult_element_by_element = tf.mul(A,B) #????? # see tf.mul
+sum = tf.reduce_sum(mult_element_by_element#????? # see tf.reduce_sum
 
 # Launch the default graph.
 with tf.Session() as sess:
