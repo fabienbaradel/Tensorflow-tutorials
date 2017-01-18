@@ -1,4 +1,7 @@
-
+"""
+Re-written code from https://github.com/awjuliani/DeepRL-Agents
+I only had few omments and a testing part at the end.
+"""
 import gym
 import numpy as np
 import random
