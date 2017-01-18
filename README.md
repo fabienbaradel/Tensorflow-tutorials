@@ -42,8 +42,8 @@ Feel free to install directly Tensorflow on your laptop [TensorFlow Installation
 - Policy Gradient methods: REINFORCE (coming...)
 
 ## Thanks
-Code inspired by other great tutorials from [@aymericdamien](https://github.com/aymericdamien/TensorFlow-Examples), [@awjuliani](https://github.com/awjuliani/DeepRL-Agents), [@pkmital](https://github.com/pkmital/tensorflow_tutorials/blob/master/python/09_convolutional_autoencoder.py).  
-Do not hesitate to read more about deep learning on those awesome blogs: [colah.github.io](http://colah.github.io/), [karpathy.github.io](http://karpathy.github.io/), [wildml.com](http://www.wildml.com/)
+Code inspired by other great tutorials from [@aymericdamien](https://github.com/aymericdamien/TensorFlow-Examples) (SGD and MNIST parts), [@awjuliani](https://github.com/awjuliani/DeepRL-Agents) (RL part), [@pkmital](https://github.com/pkmital/tensorflow_tutorials/blob/master/python/09_convolutional_autoencoder.py) (conv-deconv autoencoder).  
+Here are my favorite deep learning blogs: [colah.github.io](http://colah.github.io/), [karpathy.github.io](http://karpathy.github.io/), [wildml.com](http://www.wildml.com/)
 
 
 
