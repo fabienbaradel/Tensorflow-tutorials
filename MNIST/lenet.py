@@ -50,6 +50,7 @@ class MNIST_logistic(object):
             return tf.Variable(tf.random_normal(shape, stddev=0.01))
 
         # input reshaping
+        #X = tf.random_normal([1, 28, 28,1])
         X = tf.reshape(self.X, [-1, 28, 28, 1])
 
         net = slim.conv2d(X, 32, [5, 5], scope='conv1')
