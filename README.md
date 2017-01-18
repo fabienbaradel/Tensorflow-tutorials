@@ -1,6 +1,6 @@
 # Introduction to Deep Learning with Tensorflow
 
-Tutorials with Tensorflow implementations. Specially designed for [ENSAI SID 2017](http://www.ensai.fr/formation/id-3e-annee-ingenieur/filiere-statistique-et-ingenierie-des-donnees.html).
+Tutorials with Tensorflow implementations. Initially designed for [ENSAI SID 2017](http://www.ensai.fr/formation/id-3e-annee-ingenieur/filiere-statistique-et-ingenierie-des-donnees.html).
 
 A .ova file (Ubuntu 16.04 - ~ 3.5 Go) is available on a USB key where Python 2.7 and Tensorflow (0.12.0) are already installed.
 Go to VirtualBox and 'import a virtual environment' and select the .ova file.
