@@ -11,35 +11,34 @@ Feel free to install directly Tensorflow on your laptop [TensorFlow Installation
 
 
 ## Introduction
-- Hello World ([code](https://github.com/fabienbaradel/Tensorflow-tutorials/blob/master/Intro/hello_world.py))
-- Basic Maths ([code](https://github.com/fabienbaradel/Tensorflow-tutorials/blob/master/Intro/math_ops.py))
+- Hello World ([code](Intro/hello_world.py))
+- Basic Maths ([code](Intro/math_ops.py))
 
 ## Understanding Stochastic Gradient Descent
-- Linear Regression ([exo](https://github.com/fabienbaradel/Tensorflow-tutorials/blob/master/SGD/linear_regression_exo.py)) - ([solution](https://github.com/fabienbaradel/Tensorflow-tutorials/blob/master/SGD/linear_regression.py))
-- Binary Classification ([exo](https://github.com/fabienbaradel/Tensorflow-tutorials/blob/master/SGD/binary_classifcation_exo.py)) - ([solution](https://github.com/fabienbaradel/Tensorflow-tutorials/blob/master/SGD/binary_classifcation.py))
+- Linear Regression ([exo](SGD/linear_regression_exo.py)) - ([solution](SGD/linear_regression.py))
+- Binary Classification ([exo](SGD/binary_classifcation_exo.py)) - ([solution](SGD/binary_classifcation.py))
 
 ## MNIST
-- Softmax ([exo](https://github.com/fabienbaradel/Tensorflow-tutorials/blob/master/MNIST/softmax_exo.py)) - ([solution](https://github.com/fabienbaradel/Tensorflow-tutorials/blob/master/MNIST/softmax.py))
-- Mulilayer Perceptron ([exo](https://github.com/fabienbaradel/Tensorflow-tutorials/blob/master/MNIST/mlp_exo.py)) - ([solution](https://github.com/fabienbaradel/Tensorflow-tutorials/blob/master/MNIST/mlp.py))
-- One Conv + Max Pool ([exo](https://github.com/fabienbaradel/Tensorflow-tutorials/blob/master/MNIST/one_conv_exo.py)) - ([solution](https://github.com/fabienbaradel/Tensorflow-tutorials/blob/master/MNIST/one_conv.py))
+- Softmax ([exo](MNIST/softmax_exo.py)) - ([solution](MNIST/softmax.py))
+- Mulilayer Perceptron ([exo](MNIST/mlp_exo.py)) - ([solution](MNIST/mlp.py))
+- One Conv + Max Pool ([exo](MNIST/one_conv_exo.py)) - ([solution](MNIST/one_conv.py))
 - Make your life easier => [SLIM](https://github.com/tensorflow/tensorflow/tree/master/tensorflow/contrib/slim) ;)
-- LeNet ([exo](https://github.com/fabienbaradel/Tensorflow-tutorials/blob/master/MNIST/lenet_exo.py)) - ([solution](https://github.com/fabienbaradel/Tensorflow-tutorials/blob/master/MNIST/lenet.py))
-- Autoencoder ([exo](https://github.com/fabienbaradel/Tensorflow-tutorials/blob/master/MNIST/autoencoder_exo.py)) - ([solution](https://github.com/fabienbaradel/Tensorflow-tutorials/blob/master/MNIST/autoencoder.py))
-- Conv-Deconv Autoencoder ([exo](https://github.com/fabienbaradel/Tensorflow-tutorials/blob/master/MNIST/conv_ae_exo.py)) - ([solution](https://github.com/fabienbaradel/Tensorflow-tutorials/blob/master/MNIST/conv_ae.py))
-- RNN ([exo](https://github.com/fabienbaradel/Tensorflow-tutorials/blob/master/MNIST/rnn_exo.py)) - ([solution](https://github.com/fabienbaradel/Tensorflow-tutorials/blob/master/MNIST/rnn_exo.py))
+- LeNet ([exo](MNIST/lenet_exo.py)) - ([solution](MNIST/lenet.py))
+- Autoencoder ([exo](MNIST/autoencoder_exo.py)) - ([solution](MNIST/autoencoder.py))
+- Conv-Deconv Autoencoder ([exo](MNIST/conv_ae_exo.py)) - ([solution](MNIST/conv_ae.py))
+- RNN ([exo](MNIST/rnn_exo.py)) - ([solution](MNIST/rnn_exo.py))
 - GAN (coming...)
 - DCGAN (coming...)
 
 
 ## The Nature Conservancy Fisheries Monitoring ([Kaggle](https://www.kaggle.com/c/the-nature-conservancy-fisheries-monitoring))
-- Have a look at the [README](https://github.com/fabienbaradel/Tensorflow-tutorials/blob/master/Kaggle/README.md) of this repository first
-- Inception v3 Features Extraction ([code](https://github.com/fabienbaradel/Tensorflow-tutorials/blob/master/Kaggle/extract_deepFeatures_fish.py))
-- Classification from DeepFeatures ([exo](https://github.com/fabienbaradel/Tensorflow-tutorials/blob/master/Kaggle/classif_fish_exo.py)) - ([softmax regression](https://github.com/fabienbaradel/Tensorflow-tutorials/blob/master/kaggle/classif_fish.py))
+- Have a look at the [README](Kaggle/README.md) of this repository first
+- Inception v3 Features Extraction ([code](Kaggle/extract_deepFeatures_fish.py))
+- Classification from DeepFeatures ([exo](Kaggle/classif_fish_exo.py)) - ([softmax regression](kaggle/classif_fish.py))
 
 
 ## Frozen Lake
-- Q-Learning with neural network ([exo](https://github.com/fabienbaradel/Tensorflow-tutorials/blob/master/RL/q_learning_neural_net_exo.py)) - ([solution](https://github.com/fabienbaradel/Tensorflow-tutorials/blob/master/RL/q_learning_neural_net.py))
-- Policy Gradient methods: REINFORCE (coming...)
+- Q-Learning with neural network ([exo](RL/q_learning_neural_net_exo.py)) - ([solution](RL/q_learning_neural_net.py))
 
 ## Thanks
 Code inspired by other great tutorials from [@aymericdamien](https://github.com/aymericdamien/TensorFlow-Examples) (SGD and MNIST parts), [@awjuliani](https://github.com/awjuliani/DeepRL-Agents) (RL part), [@pkmital](https://github.com/pkmital/tensorflow_tutorials/blob/master/python/09_convolutional_autoencoder.py) (conv-deconv autoencoder).  
@@ -54,3 +53,5 @@ numpy
 matplotlib
 gym (Frozen Lake only)
 ```
+
+An update one the repo will be done soone (python 3.5 and Tensorflow 1.2)
